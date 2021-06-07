@@ -17,8 +17,8 @@ class FutureDetailWeatherFragment : Fragment() {
     private lateinit var viewModel: FutureDetailWeatherViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.future_detail_weather_fragment, container, false)
     }
