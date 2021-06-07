@@ -1,4 +1,4 @@
-package co.zaryab.forecastandroidmvvm.ui.weather.future
+package co.zaryab.forecastandroidmvvm.ui.weather.future.list
 
 import androidx.lifecycle.ViewModel
 

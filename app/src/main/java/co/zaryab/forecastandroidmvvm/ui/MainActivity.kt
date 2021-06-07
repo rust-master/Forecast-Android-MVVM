@@ -1,4 +1,4 @@
-package co.zaryab.forecastandroidmvvm
+package co.zaryab.forecastandroidmvvm.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
+import co.zaryab.forecastandroidmvvm.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        navController = Navigation.findNavController(this,R.id.nav_host_fragment)
+        navController = Navigation.findNavController(this, R.id.nav_host_fragment)
 
         bottom_nav.setupWithNavController(navController)
 
