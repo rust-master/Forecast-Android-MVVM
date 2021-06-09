@@ -66,8 +66,8 @@ dependencies {
     implementation "com.google.code.gson:gson:2.8.5"
 
     // Kotlin Android Coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0-RC1'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.0-RC1"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
 
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
@@ -95,7 +95,7 @@ dependencies {
     implementation 'com.xwray:groupie-kotlin-android-extensions:2.1.0'
 
     // Preference
-    implementation "androidx.preference:preference:1.0.0"
+    implementation "androidx.preference:preference:1.1.1"
 
     // WeatherLocation
     implementation "com.google.android.gms:play-services-location:16.0.0"
