@@ -1,4 +1,4 @@
-package co.zaryab.forecastandroidmvvm.data.response
+package co.zaryab.forecastandroidmvvm.data.db.entity
 
 
 import com.google.gson.annotations.SerializedName
